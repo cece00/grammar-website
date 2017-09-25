@@ -42,6 +42,84 @@
 		text-decoration: none;
 	}
 
+	/*#box img{
+		display:none;
+	}
+
+	#box img:target{
+		display:block;
+	}
+	
+	#practice a{
+		background-color: lightgray;
+	}*/
+
+	#practice a:link,#practice a:visited{/*a的link和a的点击时样式*/
+		font-weight: bold;/*更改字体大小 粗体*/
+		color: darkgray;
+		padding: none;
+		text-decoration: none;/*去掉下划线*/
+	}
+	#practice a:hover,#practice a:active{/*鼠标放上去 和 点击时 的样式*/
+		color: dimgray;
+	}
+	.div_hide{
+	   display:none;
+	}
+	.div_show{
+	   display:block;
+	}	   
+	#div_correct1,#div_wrong1,#div_correct2,#div_wrong2,#div_correct3,#div_wrong3,#div_correct4,#div_wrong4,#div_correct5,#div_wrong5{
+		color: red;
+	   font-size: 20px;
+	   font-weight: bold;
+	}
+	#content1,#intro1,#content2,#intro2,#content3,#intro3,#content4,#intro4,#content5,#intro5{
+		font: 5px/7px;
+		width: 1000px;
+		height: 40px;
+		background: transparent;
+		padding: 4px;
+		margin: 0;
+		border: 2px #ccc double;
+ 	    border-bottom:0;
+		overflow: hidden;
+	}
+	#content1，#content2，#content3，#content4，#content5{ 
+		font-size: 20px;
+		height:40px;
+		line-height: 200%;
+	}
+	#intro1,#intro2,#intro3,#intro4,#intro5{
+		color: #036;
+		font:12px;
+        border: 2px #ccc double;
+        border-top:0;
+        line-height: 100%;
+        height: 80px;
+	}
+	#key1,#key2,#key3,#key4,#key5{
+		color:#900;
+		font-size: 20px;
+		float:right
+	}
+	hr{height:1px;border:1px #ccc dotted}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	#st-preloader {
 		background: #FFF;
 		bottom: 0;
